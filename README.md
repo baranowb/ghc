@@ -20,7 +20,7 @@ Note that each task is more complex than previous and as such, might pose challe
 
 ## Windows
 
-./gradle.bat clean build run
+./gradlew.bat clean build run
 
 # Invoke
 

@@ -1,4 +1,4 @@
-#Undertow demo app.
+# Undertow demo app.
 This is Undertow demo app. Its goals are as follow:
  - highlight how to easily jump start servlet application
  - allow participants to familiarize with API - analyze code
@@ -6,14 +6,22 @@ This is Undertow demo app. Its goals are as follow:
      - HINT: careful analysis of content and response code is warranted
  - allow participants to experiment and potentially complete tasks set forth by this example(boot) 
 
-#Application design
+# Application design
+
 This project sets up simple application with three servlets, which respond in different way to requests. Servlet names/context path are descriptive on purpose to hint function of each class.
 
 Note that each task is more complex than previous and as such, might pose challenge that might not be feasible to finish during live session.
-#Boot up
-##Linux 
+
+# Boot up
+
+## Linux 
+
 ./gradlew clean build run
-##Windows
+
+## Windows
+
 ./gradle.bat clean build run
-#Invoke
+
+# Invoke
+
 curl -v localhost:8080/ghc/[target_servlet]
